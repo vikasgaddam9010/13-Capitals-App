@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  box-sizing: content-box;
+  font-family: 'Roboto';
+}
+.bg-container {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.semi {
+  height: 40vh;
+  width: 40vw;
+  border-radius: 15px;
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+select {
+  width: 200px;
+  margin-right: 5px;
+}
+.option {
+  background-color: #ffffff;
+  padding: 5px;
+}
+.selcted-section {
+  display: flex;
+  flex-direction: row;
+}
+.para{
+  margin-top: 20px;
+}
